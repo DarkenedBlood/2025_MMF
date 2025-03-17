@@ -205,10 +205,6 @@ winner = random.choice(all_names)
 winner_index = all_names.index(winner)
 print("winner", winner, "list_position", winner_index)
 
-# retrieve ticket price and surcharge
-winner_ticket_price = all_ticket_cost[winner_index]
-winner_surcharge = all_surcharges[winner_index]
-
 # find total won
 total_won = mini_movie_frame.at[winner_index, 'Total']
 
